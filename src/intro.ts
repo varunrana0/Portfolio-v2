@@ -89,7 +89,7 @@ const socials = [
 
 export const myInfo = {
 	name: "hey, i'm Varun Rana 👋",
-	avatar: "/avatar.jpg",
+	avatar: "/avatar.JPG",
 	bio: "Hello there! I'm a passionate web enthusiast and problem solver. I thrive on the thrill of crafting captivating web experiences that seamlessly blend creativity and functionality. With an unwavering focus on user satisfaction, I meticulously design interfaces that leave a lasting impression. Whether it's building sleek landing pages or dynamic web applications, I am driven to create meaningful digital journeys that inspire and engage. Let's collaborate and bring your unique vision to life!",
 	workBefore: workSection,
 	socials,
