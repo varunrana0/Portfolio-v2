@@ -81,7 +81,7 @@ const socials = [
 	},
 	{
 		title: "Whatsapp",
-		link: "https://wa.me/7827304056",
+		link: "https://wa.me/7082765880",
 		icon: RiWhatsappFill,
 		variants: "green",
 	},
