@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 const Socials = () => {
 	return (
-		<section className="py-16">
+		<section className="py-8 md:py-16">
 			<div className="flex md:flex md:flex-row flex-col gap-4 items-center justify-center w-full">
 				{myInfo?.socials?.map((acc: any) => (
 					<Button
@@ -13,7 +13,7 @@ const Socials = () => {
 						as={NextLink}
 						href={acc?.link}
 						passHref
-						className={`capitalize h-20 text-xl w-full border-1 border-white/10 text-white backdrop-blur-sm bg-white/5 rounded-lg`}
+						className={`capitalize w-full md:w-fit border-1 border-white/10 text-white backdrop-blur-sm bg-white/5 rounded-lg`}
 						style={{
 							backgroundImage:
 								"radial-gradient(circle at top left, #2020208c, transparent)",

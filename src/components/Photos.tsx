@@ -7,7 +7,7 @@ const Photos = () => {
 				<Image
 					removeWrapper
 					alt="Card background"
-					className="z-0 w-full h-full object-cover"
+					className="z-0 w-full h-full object-cover object-top"
 					src="/profile-logo.jpg"
 				/>
 			</Card>

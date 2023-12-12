@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Provider from "@/utils/Provider";
+import { Image } from "@nextui-org/react";
+// import Image from "next/image";
 
 const inter = Poppins({
 	subsets: ["latin"],
@@ -23,9 +25,32 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`bg-[#121213] ${inter.className} min-h-screen w-full`}>
-				<div className="fixed top-28 md:-top-10 skew-y-12 skew-x-12 -right-60 md:right-28 h-96 md:h-[770px] rounded-full w-full md:w-[470px] bg-gradient-radial bg-blend-multiply blur-3xl opacity-10" />
-				<div className="fixed -bottom-72 md:-bottom-96 skew-y-12 skew-x-12 -left-60 md:-left-14 h-96 md:h-[770px] rounded-full w-full md:w-[470px] bg-gradient-radial bg-blend-multiply blur-3xl opacity-10" />
+				className={`bg-[#040404] ${inter.className} w-full h-full antialiased selection:bg-purple-500/90`}>
+				<div className="fixed block opacity-70 top-[15%] -right-[60%] sm:-top-[45%] sm:-right-[60%] 2xl:-top-[60%] 2xl:-right-[35%] z-0 rotate-180 sm:scale-y-105">
+					<Image
+						src="/docs-right.png"
+						height="100%"
+						className="relative z-0 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large"
+						alt="docs right background"
+						data-loaded="true"
+					/>
+				</div>
+				<svg
+					className="pointer-events-none fixed isolate z-50 opacity-70 mix-blend-soft-light"
+					width="100%"
+					height="100%">
+					<filter id="pedroduarteisalegend">
+						<feTurbulence
+							type="fractalNoise"
+							baseFrequency="0.80"
+							numOctaves="4"
+							stitchTiles="stitch"></feTurbulence>
+					</filter>
+					<rect
+						width="100%"
+						height="100%"
+						filter="url(#pedroduarteisalegend)"></rect>
+				</svg>
 
 				<Provider>{children}</Provider>
 			</body>

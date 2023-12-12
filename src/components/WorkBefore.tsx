@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { Accordion, AccordionItem, Avatar, Chip } from "@nextui-org/react";
+import { useState } from "react";
+import { Accordion, AccordionItem } from "@nextui-org/react";
 import { myInfo } from "@/intro";
 
 export default function WorkBefore() {
@@ -9,7 +9,7 @@ export default function WorkBefore() {
 	);
 
 	return (
-		<section className="py-16">
+		<section className="py-8 md:py-16">
 			<h3 className="text-white text-3xl tracking-tighter font-semibold mb-4">
 				Work Experience
 			</h3>
@@ -23,7 +23,7 @@ export default function WorkBefore() {
 					className="mt-4 p-0">
 					<AccordionItem
 						key={index}
-						className="border-1 mt-4 border-white/20 backdrop-blur-md bg-white/5 p-5 md:px-7 py-5 rounded-lg"
+						className="border-1 mt-4 border-white/20 backdrop-blur-xl bg-white/5 p-5 md:px-7 py-5 rounded-lg"
 						aria-label="Janelle Lenard"
 						// startContent={
 						// 	<Avatar

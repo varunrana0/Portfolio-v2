@@ -17,6 +17,7 @@ const config: Config = {
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 				"gradient-center":
 					"linear-gradient(to-right, transparent, transparent, #fff, transparent,transparent)",
+				custom: "url('/docs-right.png')",
 			},
 			backgroundColor: {
 				"border-gradient":
