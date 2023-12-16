@@ -5,12 +5,206 @@ import {
 	RiWhatsappFill,
 } from "react-icons/ri";
 
+export const techData = {
+	frontend: [
+		{
+			name: "HTML",
+			icon: "FaHtml5",
+			img: "/techs/HTML5.png",
+		},
+		{
+			name: "CSS",
+			icon: "FaCss3",
+			img: "/techs/CSS3.png",
+		},
+		{
+			name: "JavaScript",
+			icon: "FaCode",
+			img: "/techs/JavaScript-logo.png",
+		},
+		{
+			name: "TypeScript",
+			icon: "FaCode",
+			img: "/techs/typescript.png",
+		},
+		{
+			name: "React.js",
+			icon: "FaReact",
+			img: "/techs/React-icon.svg",
+		},
+		{
+			name: "Next.js",
+			icon: "FaNextjs",
+			img: "/techs/nextjs.ico",
+		},
+		{
+			name: "Tailwind CSS",
+			icon: "FaTailwindcss",
+			img: "/techs/tailwindcss.png",
+		},
+		{
+			name: "HTMX",
+			icon: "FaRProject",
+			img: "/techs/htmx.jpeg",
+		},
+		{
+			name: "Styled Components",
+			icon: "FaCube",
+			img: "/techs/styled-components.png",
+		},
+		{
+			name: "React Table",
+			icon: "FaReactTable",
+			img: "/techs/react-table.png",
+		},
+	],
+	backend: [
+		{
+			name: "Node.js",
+			icon: "FaNodeJs",
+			img: "/techs/nodejs.png",
+		},
+	],
+	databases: [
+		{
+			name: "Upstash",
+			icon: "FaYarn",
+			img: "/techs/upstash.png",
+		},
+		{
+			name: "MongoDB",
+			icon: "FaDatabase",
+			img: "/techs/mongodb.ico",
+		},
+		{
+			name: "Supabase",
+			icon: "FaSupabase",
+			img: "/techs/supabase.png",
+		},
+		{
+			name: "Firebase",
+			icon: "FaSupabase",
+			img: "/techs/firebase.png",
+		},
+	],
+	"Components Libraries": [
+		{
+			name: "Chakra UI",
+			icon: "FaChakra",
+			img: "/techs/chakraui.png",
+		},
+		{
+			name: "Material UI",
+			icon: "FaMaterialUi",
+			img: "/techs/materialui.ico",
+		},
+		{
+			name: "Daisy UI",
+			icon: "FaMaterialUi",
+			img: "/techs/daisyui.png",
+		},
+		{
+			name: "Nextjs UI",
+			icon: "FaMaterialUi",
+			img: "/techs/nextui.ico",
+		},
+	],
+	testing: [
+		{
+			name: "Jest",
+			icon: "FaJest",
+			img: "/techs/jest.ico",
+		},
+		{
+			name: "Cypress",
+			icon: "FaJest",
+			img: "/techs/cypress.svg",
+		},
+		{
+			name: "Playwright",
+			icon: "FaPlaystation",
+			img: "/techs/playwright-logo.svg",
+		},
+		{
+			name: "React Testing Library",
+			icon: "FaPlaystation",
+			img: "/techs/reacttestinglibrary.png",
+		},
+	],
+	"data Fetching": [
+		{
+			name: "Axios",
+			icon: "FaAxios",
+			img: "/techs/axios.svg",
+		},
+		{
+			name: "React Query",
+			icon: "FaReact",
+			img: "/techs/react-query.png",
+		},
+		{
+			name: "Prisma",
+			icon: "FaReact",
+			img: "/techs/prisma.png",
+		},
+	],
+	"form Management": [
+		{
+			name: "Formik",
+			icon: "FaRProject",
+			img: "/techs/formik.png",
+		},
+		{
+			name: "React Hook Form",
+			icon: "FaReact",
+			img: "/techs/react-hook-form-logo.png",
+		},
+		{
+			name: "Mantine Form",
+			icon: "FaReact",
+			img: "/techs/mantine.svg",
+		},
+	],
+	"form Validation": [
+		{
+			name: "Yup",
+			icon: "FaYarn",
+			img: "/techs/yup.png",
+		},
+		{
+			name: "Zod",
+			icon: "FaZod",
+			img: "/techs/zod.ico",
+		},
+	],
+	"build Tools": [
+		{
+			name: "CI/CD",
+			icon: "FaGithub",
+			img: "/techs/github.png",
+		},
+		{
+			name: "Git",
+			icon: "FaGithub",
+			img: "/techs/github.png",
+		},
+	],
+
+	blogs: [
+		{
+			name: "Contentlayer",
+			icon: "FaContentLayer",
+			img: "/techs/contentlayer.png",
+		},
+	],
+};
+
 export const projects = [
 	{
-		name: "Varun Rana",
+		name: "Portfolio",
 		url: "https://varunrana.info",
 		projectImg: "/projects/portfolio_project.webp",
-		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
+		skills: ["ReactJs", "Tailwind Css", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varunrana0/my_portfolio",
 	},
@@ -20,7 +214,7 @@ export const projects = [
 		projectImg: "/projects/colors_finder_v2.png",
 		skills: [
 			"ReactJs",
-			"TailwindCss",
+			"Tailwind Css",
 			"NodeJs",
 			"mongoDB",
 			"Git",
@@ -34,7 +228,7 @@ export const projects = [
 		name: "gitHub user finder",
 		url: "https://find-github-profile.netlify.app",
 		projectImg: "/projects/find-github-profile.png",
-		skills: ["ReactJs", "React-spinners", "TailwindCss", "Git", "GitHub"],
+		skills: ["ReactJs", "React spinners", "Tailwind Css", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to find any gitHub user Repository. just enter user login name and see their repo name, when they joined github and more.",
 		sourceCode: "https://github.com/varunrana0/GitHub-User-Finder",
 	},
@@ -42,7 +236,7 @@ export const projects = [
 		name: "Blogs with nextjs and contentlayer",
 		url: "https://contentlayers-blogs.vercel.app/",
 		projectImg: "/projects/contentlayer_blog.webp",
-		skills: ["Nextjs", "Contentlayer", "TailwindCss", "Git", "GitHub"],
+		skills: ["Nextjs", "Contentlayer", "Tailwind Css", "Git", "GitHub"],
 		desc: "Quickstart Guide: Setting Up a Blog with Next.js and ContentLayer",
 		sourceCode: "https://github.com/varunrana0/contentlayers-blogs",
 	},
@@ -50,7 +244,7 @@ export const projects = [
 		name: "Trivia game quiz with context api",
 		url: "https://trivia-gaming-quiz-with-context-api.vercel.app/",
 		projectImg: "/projects/trivia_game.webp",
-		skills: ["Reactjs", "Context API", "TailwindCss", "Git", "GitHub"],
+		skills: ["Reactjs", "Context API", "Tailwind Css", "Git", "GitHub"],
 		desc: "Trivia Quiz game with react and context api.",
 		sourceCode:
 			"https://github.com/varunrana0/trivia_gaming_quiz_with_contextAPI",
@@ -61,10 +255,10 @@ export const projects = [
 		projectImg: "/projects/pomodrotimer.png",
 		skills: [
 			"ReactJs",
-			"React-spinners",
-			"react-router",
+			"React spinners",
+			"react router",
 			"firebase",
-			"TailwindCss",
+			"Tailwind Css",
 			"Git",
 			"GitHub",
 		],
@@ -75,7 +269,7 @@ export const projects = [
 		name: "onboarding steps form",
 		url: "https://onboarding-steps-form.netlify.app/",
 		projectImg: "/projects/onBoarding.png",
-		skills: ["ReactJs", "TailwindCss", "Git", "GitHub"],
+		skills: ["ReactJs", "Tailwind Css", "Git", "GitHub"],
 		desc: "Build workspace with this cool multi steps form with some animations.",
 		sourceCode: "https://github.com/varunrana0/OnBoarding_Steps_Form",
 	},
@@ -83,7 +277,7 @@ export const projects = [
 		name: "portfolio one",
 		url: "https://varun-rana.netlify.app",
 		projectImg: "/projects/portfolio.png",
-		skills: ["ReactJs", "TailwindCss", "react-router", "Git", "GitHub"],
+		skills: ["ReactJs", "Tailwind Css", "react router", "Git", "GitHub"],
 		desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
 		sourceCode: "https://github.com/varunrana0/PortFolio-Website",
 	},
@@ -93,14 +287,13 @@ export const projects = [
 		projectImg: "/projects/elite-vibes.webp",
 		skills: [
 			"ReactJs",
-			"React-spinners",
-			"TailwindCss",
+			"React spinners",
+			"Tailwind Css",
 			"NodeJs",
-			"react-router",
+			"react router",
 			"firebase",
 			"mongoDB",
 			"Express.js",
-			"TailwindCss",
 			"Git",
 			"GitHub",
 		],
@@ -109,52 +302,37 @@ export const projects = [
 	},
 ];
 
-export const technologies = {
-	"Tech I Know": [
-		"chakra ui",
-		"CI/CD",
-		"codux",
-		"css",
-		"formik",
-		"git",
-		"github",
-		"html",
-		"htmx",
-		"javascript",
-		"jest",
-		"material ui",
-		"mongoDB",
-		"next.js",
-		"node.js",
-		"playwright",
-		"react hook form",
-		"react.js",
-		"react query",
-		"react table",
-		"styled components",
-		"supabase",
-		"tailwindcss",
-		"typescript",
-		"upstash",
-		"yup",
-		"zod",
-	],
-	"Tech I'm Currently Working With": [
-		"axios",
-		"chakra ui",
-		"formik",
-		"next.js",
-		"react.js",
-		"react query",
-		"react table",
-		"react hook form",
-		"supabase",
-		"typescript",
-		"upstash",
-		"yup",
-	],
-	"Learning Now": ["contentlayer"],
-};
+export const technologies = [
+	"chakra ui",
+	"CI/CD",
+	"codux",
+	"css",
+	"formik",
+	"git",
+	"github",
+	"html",
+	"htmx",
+	"javascript",
+	"jest",
+	"material ui",
+	"mongoDB",
+	"next.js",
+	"node.js",
+	"playwright",
+	"react hook form",
+	"react.js",
+	"react query",
+	"react table",
+	"styled components",
+	"supabase",
+	"tailwind css",
+	"typescript",
+	"upstash",
+	"yup",
+	"zod",
+	"axios",
+	"contentlayer",
+];
 
 // export const myInfo = {
 // 	name: "hey, i'm Palvi thakur 👋",
@@ -245,4 +423,6 @@ export const myInfo = {
 	workBefore: workSection,
 	socials,
 	projects,
+	technologies,
+	techData,
 };

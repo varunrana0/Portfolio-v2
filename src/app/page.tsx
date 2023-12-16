@@ -16,11 +16,12 @@ export default function Home() {
 				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 				<WorkBefore />
 				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
+				<Experience />
+				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 				<Projects />
 				{/* Dank Mono, 'Courier New', monospace */}
 				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 				<Socials />
-				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 			</div>
 		</main>
 	);

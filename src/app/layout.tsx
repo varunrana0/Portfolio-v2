@@ -26,11 +26,11 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={`bg-[#040404] ${inter.className} w-full h-full antialiased selection:bg-purple-500/90`}>
-				<div className="fixed block opacity-70 top-[15%] -right-[60%] sm:-top-[45%] sm:-right-[60%] 2xl:-top-[60%] 2xl:-right-[35%] z-0 rotate-180 sm:scale-y-105">
+				<div className="fixed block opacity-70 top-[15%] -right-[60%] sm:-top-[45%] sm:-right-[60%] 2xl:-top-[60%] 2xl:-right-[35%] z-0 rotate-180 sm:scale-y-105 pointer-events-none">
 					<Image
 						src="/docs-right.png"
 						height="100%"
-						className="relative z-0 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large"
+						className="relative z-0 opacity-0 shadow-black/5 data-[loaded=true]:opacity-100 shadow-none transition-transform-opacity motion-reduce:transition-none !duration-300 rounded-large pointer-events-none"
 						alt="docs right background"
 						data-loaded="true"
 					/>
