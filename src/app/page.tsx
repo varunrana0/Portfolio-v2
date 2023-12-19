@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import WorkBefore from "@/components/WorkBefore";
 import { Divider } from "@nextui-org/react";
 import Socials from "@/components/Socials";
-import Photos from "@/components/Photos";
+// import Photos from "@/components/Photos";
 import Projects from "@/components/Projects";
 
 export default function Home() {
@@ -19,7 +19,6 @@ export default function Home() {
 				<Experience />
 				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 				<Projects />
-				{/* Dank Mono, 'Courier New', monospace */}
 				<Divider className="bg-gradient-to-r from-transparent via-white/40 to-transparent" />
 				<Socials />
 			</div>
