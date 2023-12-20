@@ -12,7 +12,7 @@ const Header = () => {
 					isBordered
 					color="secondary"
 					radius="full"
-					src={myInfo?.avatar}
+					src={myInfo.avatar}
 					className="rounded-full p-px h-[64px] w-[64px]"
 				/>
 				<div className="flex flex-col gap-0">
