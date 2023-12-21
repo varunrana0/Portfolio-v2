@@ -1,4 +1,4 @@
 User-agent: *
-Allow: https://portfolio.varunrana.info/
+Allow: /
 
 Sitemap: https://portfolio.varunrana.info/sitemap.xml

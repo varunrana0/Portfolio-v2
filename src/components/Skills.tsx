@@ -1,7 +1,8 @@
 "use client";
-import { Tabs, Tab, Card, CardBody, Image } from "@nextui-org/react";
+import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
 import styles from "../styles/marquees.module.css";
 import { myInfo } from "@/intro";
+import Image from "next/image";
 
 export default function Experience() {
 	const categories = Object.entries(myInfo.techData).map(([value, label]) => {
@@ -39,6 +40,8 @@ export default function Experience() {
 													key={content.name}
 													className="flex flex-col items-center justify-center gap-4">
 													<Image
+														width={1072}
+														height={768}
 														src={content.img}
 														alt={content.img}
 														className="h-16 w-16 object-contain aspect-auto"
