@@ -78,7 +78,7 @@ export default function RootLayout({
                     ></rect>
                 </svg>
 
-                <StarCanvas />
+                {/* <StarCanvas /> */}
                 <Provider>{children}</Provider>
             </body>
         </html>
