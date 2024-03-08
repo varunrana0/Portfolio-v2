@@ -14,18 +14,17 @@ const StarBackground = (props: any) => {
             }) as Float32Array
     );
     useFrame((_, delta: number) => {
-        ref.current.rotation.x -= delta / 20;
+        ref.current.rotation.x -= delta / 4;
         ref.current.rotation.y -= delta / 5;
     });
 
     return (
-        <group rotation={[0, 10, Math.PI / 10]}>
+        <group rotation={[0, 0, Math.PI / 10]}>
             <Sparkles
                 ref={ref}
                 positions={sphere}
                 stride={3}
                 scale={3}
-                rotation={[4, 5, 1, "XYZ"]}
                 frustumCulled
                 {...props}
             >
