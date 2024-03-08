@@ -14,15 +14,16 @@ const inter = Poppins({
 
 export const metadata: Metadata = {
     metadataBase: new URL("https://portfolio.varunrana.info"),
-    title: "Varun Rana - Software Engineer Portfolio",
+    title: "Varun Rana - Software Engineer",
     description:
         "Varun Rana, a dedicated software engineer currently contributing to Mtechzilla, passionate about crafting innovative solutions and pushing the boundaries of technology.",
     openGraph: {
-        title: "Varun Rana - Software Engineer Portfolio",
+        title: "Varun Rana - Software Engineer",
         description:
             "Varun Rana, a dedicated software engineer currently contributing to Mtechzilla, passionate about crafting innovative solutions and pushing the boundaries of technology.",
         url: "https://portfolio.varunrana.info",
         images: [{ url: "/portfolio.webp", width: 1200, height: 630 }],
+        siteName: "Varun Rana - Software Engineer",
         type: "website",
         phoneNumbers: "7827304056",
         countryName: "India",
@@ -78,7 +79,7 @@ export default function RootLayout({
                     ></rect>
                 </svg>
 
-                {/* <StarCanvas /> */}
+                <StarCanvas />
                 <Provider>{children}</Provider>
             </body>
         </html>

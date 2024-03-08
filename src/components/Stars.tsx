@@ -9,7 +9,7 @@ const StarBackground = (props: any) => {
     const ref = useRef<any>();
     const [sphere] = useState(
         () =>
-            random.inSphere(new Float32Array(10000), {
+            random.inSphere(new Float32Array(500000), {
                 radius: 2.2,
             }) as Float32Array
     );
