@@ -1,7 +1,7 @@
 "use client";
 
 import { myInfo } from "@/intro";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "@/components/ProjectCard";
 
 interface IProject {
     name: string;

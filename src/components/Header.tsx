@@ -3,7 +3,7 @@
 import { myInfo } from "@/intro";
 import { Avatar, Link } from "@nextui-org/react";
 import NextLink from "next/link";
-import HeaderLinks from "./HeaderLinks";
+import HeaderLinks from "@/components/HeaderLinks";
 import { motion } from "framer-motion";
 import { slideInFromLeft, slideInFromRight } from "@/utils/motion";
 
