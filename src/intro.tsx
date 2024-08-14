@@ -185,7 +185,7 @@ export const techData = [
 export const projects = [
     {
         name: "Portfolio V2",
-        url: "https://portfolio.varunrana.info",
+        url: "https://vnr.vercel.app",
         projectImg: "/projects/portfolio.webp",
         skills: ["ReactJs", "Tailwind Css", "Git", "GitHub"],
         desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
@@ -193,7 +193,7 @@ export const projects = [
     },
     {
         name: "Portfolio",
-        url: "https://varunrana.info",
+        url: "https://varunrana.vercel.app",
         projectImg: "/projects/portfolio_project.webp",
         skills: ["ReactJs", "Tailwind Css", "Git", "GitHub"],
         desc: "A Simple, Effective and Easier way to get hired by the top companies is by showing them your skills as well a good portolio helps more.",
