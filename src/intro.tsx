@@ -184,6 +184,36 @@ export const techData = [
 
 export const projects = [
     {
+        name: "Code Snippets Library",
+        url: "https://code-snippet-library-psi.vercel.app/",
+        projectImg: "/projects/Code-Snippet-Library.webp",
+        skills: [
+            "Nextjs",
+            "Tailwind Css",
+            "Shadcn/ui",
+            "typescript",
+            "Git",
+            "GitHub",
+        ],
+        desc: "A simple web application that stores code snippets and allows you to search them by keywords. Built using Nextjs, Tailwind Css, Shadcn/ui, typescript, Git, and GitHub.",
+        sourceCode: "https://github.com/varunrana0/code-snippet-library",
+    },
+    {
+        name: "Color Extractor",
+        url: "https://colors-extractor.vercel.app/",
+        projectImg: "/projects/color-extraction.webp",
+        skills: [
+            "Nextjs",
+            "Shadcn/ui",
+            "Tailwind Css",
+            "Typescript",
+            "Git",
+            "GitHub",
+        ],
+        desc: "A simple web application that allows you to extract colors from an image. Built using Nextjs, Shadcn/ui, Tailwind Css, Typescript, Git, and GitHub.",
+        sourceCode: "https://github.com/varunrana0/colors-extractor",
+    },
+    {
         name: "Portfolio V2",
         url: "https://vnr.vercel.app",
         projectImg: "/projects/portfolio.webp",
@@ -201,7 +231,7 @@ export const projects = [
     },
     {
         name: "Colors Finder",
-        url: "https://color-finder-v2.vercel.app/",
+        url: "https://url2colors.vercel.app/",
         projectImg: "/projects/colors_finder_v2.png",
         skills: [
             "ReactJs",
